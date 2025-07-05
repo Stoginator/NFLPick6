@@ -4,13 +4,14 @@ Description: An automated system for all participants in an NFL Pick 6 league
 
 ## Current User Experience
 ### Operator
-1. Collect dues
-2. Pay out awards
-3. Select 6 games for each week
-4. Manage win-loss record
-5. Manage weekly picks from participants
-6. Track weekly picks in Excel
-7. Communicate to entire group 4x or more a week
+1. Manage league membership by adding or removing participants
+2. Collect dues
+3. Pay out awards
+4. Select 6 games for each week
+5. Manage win-loss record
+6. Manage weekly picks from participants
+7. Track weekly picks in Excel
+8. Communicate to entire group 4x or more a week
    1. Games selected
    2. Send reminder 24 hours before earliest kickoff
    3. Predicted winners chosen by each participant
@@ -34,6 +35,7 @@ Description: An automated system for all participants in an NFL Pick 6 league
 ### Operator
 1. Collect dues
 2. Pay out awards
+3. Manages league membership by adding or removing participants
 
 ### Participant
 1. **Pay to play**: Pay dues to the operator at the beginning of the season
