@@ -50,3 +50,9 @@ Description: An automated system for all participants in an NFL Pick 6 league
 1. Allow participants to vote on the games selected each week.
 2. Customize reminders to be sent X hours before each kickoff. 
 3. If you miss a game, you are ineligble for season-end pay-outs.
+4. Predict the score, as well as the winner of the game.
+5. Awards section: see the coolest weeks you predicted
+6. Save Weeks: save predictions and results from a week you really liked
+7. Small weekly payouts for special cases:
+   1. Perfect Six: you pick the winners for all six games in one week
+   2. Consecutive Perfect Sixes: you pick the winners for all six games in back-to-back weeks
