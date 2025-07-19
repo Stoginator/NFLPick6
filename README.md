@@ -1,6 +1,17 @@
 # NFL Pick 6
 Description: An automated system for all participants in an NFL Pick 6 league
 
+## Current Process: 
+An NFL Pick 6 league is a season-long competition. Each week of the National Football League (NFL) season, the operator chooses 6 games and emails participants. Participants predict the winner of each game. Their weekly wins and losses are reproduced on a leaderboard. The season-end leaders win the competition. Pick 6 leagues are run by an operator, who recruits participants and manages league operations. Participants pay a monetary due to join the league.
+
+## Automated MVP Process: 
+All participants will create an account. Participants may request the creation of a league. If admins grant the request, the requesting participant will become that league's operator. Operators will invite more participants using pre-written text or email messages and sending from their own account. Operators will upload their payment QR code for participants to send their dues. After dues are collected, operators will confirm when a participant is eligible for game selection.
+
+An automated system will manage league operations: choosing 6 games each week, communicating them to all participants, handling team selections each week by each participant, sending communication reminders, calculating a leaderboard, and sending a weekly summary by email. This cycle will repeat every week of the 18-week NFL season.
+
+At the end of the season, the final leaderboard will be saved. The operator is responsible for paying out awards.
+
+Must be a mobile-first website! No one will use this on desktop.
 
 ## Current User Experience
 ### Operator
@@ -31,9 +42,14 @@ Description: An automated system for all participants in an NFL Pick 6 league
 4. Present win-loss record for all participants
 5. Send 1 reminder to all participants 24 hours before the earliest kickoff
 6. Select 6 games each week with the lowest over-under prediction
+7. Present PayPal/Venmo/Zelle/Apple Pay QR code on the website
+8. Share button to easily recruit participants (pre-written text or email message)
+   1. Consider social media templates?
+   2. Operator provides their own phone number / email capabilities
+9. Allow  
 
 ### Operator
-1. Collect dues
+1. Collect dues by submitting QR code on the website
 2. Pay out awards
 3. Manages league membership by adding or removing participants
 
@@ -43,8 +59,8 @@ Description: An automated system for all participants in an NFL Pick 6 league
 3. Confirm the picks are represented as chosen
 
 ### Out-of-Scope
-1. Collect Dues
-2. Pay out awards
+1. System collecting Dues
+2. System paying out awards
 
 ### League Settings
 1. Allow participants to vote on the games selected each week.
@@ -56,3 +72,11 @@ Description: An automated system for all participants in an NFL Pick 6 league
 7. Small weekly payouts for special cases:
    1. Perfect Six: you pick the winners for all six games in one week
    2. Consecutive Perfect Sixes: you pick the winners for all six games in back-to-back weeks
+
+### Legal Issues
+1. Not allowed to use NFL team names or team logos --> don't think non-monetization will fix this
+
+### Change Management for Future
+1. Collecting Dues and Award Payments
+   1. Current state: Operator receives dues from all participants and pays out at the end of the season.
+   2. Future state: System receives dues from all participants and then pays out at the end of the season. 
