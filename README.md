@@ -5,7 +5,7 @@ Description: An automated system for all participants in an NFL Pick 6 league
 An NFL Pick 6 league is a season-long competition. Each week of the National Football League (NFL) season, the operator chooses 6 games and emails participants. Participants predict the winner of each game. Their weekly wins and losses are reproduced on a leaderboard. The season-end leaders win the competition. Pick 6 leagues are run by an operator, who recruits participants and manages league operations. Participants pay a monetary due to join the league.
 
 ## Automated MVP Process: 
-All participants will create an account. Participants may request the creation of a league. If admins grant the request, the requesting participant will become that league's operator. Operators will invite more participants using pre-written text or email messages and sending from their own account. Operators will upload their payment QR code for participants to send their dues. After dues are collected, operators will confirm when a participant is eligible for game selection.
+All participants will create an account. Participants may request the creation of a league. Operators will invite more participants using pre-written text or email messages and sending from their own account. Optionally, operators will upload their payment QR code for participants to send their dues. After any dues are collected, operators will confirm when a participant is eligible for game selection.
 
 An automated system will manage league operations: choosing 6 games each week, communicating them to all participants, handling team selections each week by each participant, sending communication reminders, calculating a leaderboard, and sending a weekly summary by email. This cycle will repeat every week of the 18-week NFL season.
 
@@ -61,7 +61,8 @@ Must be a mobile-first website! No one will use this on desktop.
 ### Out-of-Scope
 1. System collecting Dues
 2. System paying out awards
-
+3. Automated verification of participant creating new league (Cloudflare anti-bot check)
+   
 ### League Settings
 1. Allow participants to vote on the games selected each week.
 2. Customize reminders to be sent X hours before each kickoff. 
